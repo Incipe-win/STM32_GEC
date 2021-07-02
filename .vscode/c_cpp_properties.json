@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Win64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/SYSTEM",
+                "${workspaceFolder}/CORE",
+                "${workspaceFolder}/FWLIB/inc",
+                "${workspaceFolder}/FWLIB/src",
+                "${workspaceFolder}/USER"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "E:\\mingw64\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "gnu++20",
+            "intelliSenseMode": "clang-x64",
+            "compilerArgs": [
+                "STM32F40_41xxx",
+                "USE_STDPERIPH_DRIVER"
+            ]
+        }
+    ],
+    "version": 4
+}
